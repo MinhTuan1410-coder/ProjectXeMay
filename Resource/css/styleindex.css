@@ -1,0 +1,110 @@
+#header{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#header input{
+    width: 500px;
+}
+#header img{
+    height: 100px;
+}
+#header h3{
+    font-size: 20px;
+}
+#header .search{
+    width: 500px;
+    justify-self: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    width: 100%;
+}
+.description h1 {
+    font-size: 24px;
+    color: #13bfcd;
+    text-align: center;
+    margin: 30px 0;
+}
+.images {
+    display: flex;
+    justify-content: space-around;   
+    margin-left: 350px;
+}
+.ab125 {
+    align-content: center ;
+    margin-bottom: 50px;
+}
+.images1 img{
+    width: 40%;
+    height: 40%;
+
+}
+.Honda {
+    margin-left: 100px;
+}
+#best h1{
+    text-align: center;
+    color: #15becc;
+    margin-bottom: 40px;
+}
+.ab160cc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ab160cc h3{
+    text-align: left;
+    color: #f57c45;
+}
+.ab160cc p{
+    text-align: left;
+}
+.ab160cc-image {
+    width: 30%;
+    margin-left: 100px;
+}
+.ab160cc-content {
+    width: 30%;
+    margin-right: 200px;
+}
+#Accessories h1 {
+    text-align: center;
+    color: #15becc;
+    margin-bottom: 40px;
+}
+
+.Accessories-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    
+}   
+.Accessories-content-text{
+    width: 15%;
+    align-items: center;
+}
+.Accessories-content-text h3 {
+    text-align: center;
+    color: #f57c45;
+}   
+.Accessories-content-text h4 {
+    color: #f57c45;
+}  
+.Accessories-content img {
+    width: 85%;
+    height: 85%;
+}
+#footer {
+    background-color: #0ec0c3;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
